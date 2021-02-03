@@ -35,7 +35,7 @@ body {
 .menu__item {
   position: relative;
   margin-right: 38px;
-  font: 500 22px/26px Museo_Sans_Cyrl, arial, helvetica, sans-serif;
+  font: 500 22px/26px museo_sans_cyrl, arial, helvetica, sans-serif;
   text-decoration: none;
   color: #f8eee4;
 }
@@ -109,12 +109,12 @@ body {
 .main__subtitle-two {
   margin: 0 0 39px 22px;
   color: #F8EEE4;
-  font: 22px/26px MuseoSansCyrl, arial, helvetica, sans-serif;
+  font: 22px/26px museo_sans_cyrl, arial, helvetica, sans-serif;
   max-width: 534px;
 }
 
 .main__button {
-  font: 22px/26px MuseoSansCyrl, arial, helvetica, sans-serif;
+  font: 22px/26px museo_sans_cyrl, arial, helvetica, sans-serif;
   color: #fff;
   padding: 17px 87px;
   margin-left: 20px;
