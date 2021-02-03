@@ -4,7 +4,7 @@ body {
   height: 100vh;
   margin: 0;
   background-size: cover;
-  background: url(img/main-background..svg) no-repeat top left;
+  background: url(img/main-background..jpg) no-repeat top left;
 }
 .wrapper {
   margin: 0 0 0 10%;
@@ -132,7 +132,7 @@ body {
 }
 
 .content__image_left {
-  background: url("img/image-left.svg") no-repeat;
+  background: url("img/image-left.jpg") no-repeat;
   background-size: 100%;
   margin-right: 32px;
   width: 319px;
@@ -140,7 +140,7 @@ body {
 }
 
 .content__image_center {
-  background: url("img/image-center.svg") no-repeat;
+  background: url("img/image-center.jpg") no-repeat;
   background-size: 100%;
   margin-right: 33px;
   width: 286px;
@@ -148,7 +148,7 @@ body {
 }
 
 .content__image_right {
-  background: url("img/image-right1.svg") no-repeat;
+  background: url("img/image-right1.jpg") no-repeat;
   background-size: 100%;
   width: 208px;
   height: 380px;
