@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-  padding: 44px 0 100px;
+  padding: 44px 0 130px;
   display: flex;
   justify-content: space-between;
 }
@@ -89,7 +89,7 @@ body {
 
 .main__title-wrap {
   position: relative;
-  margin-bottom: 7px;
+  margin-bottom: 0;
 }
 
 .main__title {
@@ -110,16 +110,46 @@ body {
 .main__subtitle-two {
   margin: 0 0 39px 22px;
   color: #F8EEE4;
-  font: 17px/21px MuseoSansCyrl, arial, helvetica, sans-serif;
+  font: 22px/26px MuseoSansCyrl, arial, helvetica, sans-serif;
   max-width: 534px;
 }
 
 .main__button {
-  font: 17px/21px MuseoSansCyrl, arial, helvetica, sans-serif;
+  font: 22px/26px MuseoSansCyrl, arial, helvetica, sans-serif;
   color: #fff;
   padding: 17px 87px;
   margin-left: 20px;
   background: #D4BEA3;
   border-radius: 48px;
   text-decoration: none;
+}
+.content {
+  width: 52%;
+  padding-top: 5%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.content__image_left {
+  background: url("img/image-left.svg") no-repeat;
+  background-size: 100%;
+  margin-right: 32px;
+  width: 319px;
+  height: 423px;
+}
+
+.content__image_center {
+  background: url("img/image-center.svg") no-repeat;
+  background-size: 100%;
+  margin-right: 33px;
+  width: 286px;
+  height: 380px;
+}
+
+.content__image_right {
+  background: url("img/image-right1.svg") no-repeat;
+  background-size: 100%;
+  width: 208px;
+  height: 380px;
 }
