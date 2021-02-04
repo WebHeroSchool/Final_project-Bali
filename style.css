@@ -20,7 +20,7 @@ body {
   margin: 0 0 0 10%;
 }
 .header {
-  padding: 88px 0 139px;
+  padding: 88px 0 138px;
   display: flex;
   justify-content: space-between;
 }
@@ -98,7 +98,7 @@ body {
 
 .main__title-wrap {
   position: relative;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 .main__title {
@@ -119,7 +119,7 @@ body {
 .main__subtitle-two {
   margin: 0 0 39px 22px;
   color: #F8EEE4;
-  font: 22px/26px museo_sans_cyrl, arial, helvetica, sans-serif;
+  font: 21.5px/27px museo_sans_cyrl, arial, helvetica, sans-serif;
   max-width: 534px;
 }
 
@@ -164,57 +164,56 @@ body {
 }
 @media (max-width: 1366px) {
   .header {
-    padding: 43px 0 80px;
-  }
+   padding: 43px 0 80px;
+ }
 
-  .menu__item {
-    margin-right: 27px;
-    line-height: 19px;
-  }
+ .menu__item {
+   margin-right: 27px;
+   font: 16px/19px museo_sans_cyrl, arial, helvetica, sans-serif;
+ }
 
-  .main__text {
-    max-width: 34%;
-  }
+ .main__text {
+   max-width: 34%;
+ }
 
-  .main__title-wrap {
-    margin-bottom: 5px;
-  }
+ .main__title-wrap {
+   margin-bottom: 5px;
+ }
 
-  .main__subtitle {
-    left: 14%;
-  }
+ .main__subtitle {
+   left: 14%;
+ }
 
-  .main__button {
-    padding: 10px 62px;
-    margin-left: 15px;
-  }
+ .main__button {
+   padding: 10px 62px;
+   margin-left: 15px;
+   font: 16px/19px museo_sans_cyrl, arial, helvetica, sans-serif;
+ }
 
-  .main__subtitle-two {
-    margin: 0 0 19px 14px;
-    font-size: 1.23vw;
-    line-height: 19px;
-  }
+ .main__subtitle-two {
+   margin: 0 0 23px 14px;
+   font: 16px/19px museo_sans_cyrl, arial, helvetica, sans-serif;
+ }
 
-  .content {
-    width: 51%;
-    padding-top: 6%;
-  }
+ .content {
+   width: 51%;
+   padding-top: 6%;
+ }
 
-  .content__image_left {
-    margin-right: 21px;
-    height: 415px;
-  }
+ .content__image_left {
+   margin-right: 21px;
+   height: 415px;
+ }
 
-  .content__image_center {
-    margin-right: 21px;
-  }
+ .content__image_center {
+   margin-right: 21px;
+ }
 
-  .logo {
-    background: url("img/logo-375.svg") no-repeat;
-    margin-top: 20px;
-  }
+ .logo {
+   background: url("img/logo-375.svg") no-repeat;
+   margin-top: 20px;
+ }
 }
-
 @media (max-width: 1024px) {
   .header {
     padding: 48px 0 84px;
@@ -246,11 +245,14 @@ body {
   }
 
   .main__title {
-    font: bold 700 200px/265px pt_serif, arial, helvetica, sans-serif;
+    font-size: 19.531vw;
+    line-height: 25.879vw;
   }
 
   .main__subtitle {
-    font: bold 700 70px/93px pt_serif, arial, helvetica, sans-serif;
+    font-size: 6.836vw;
+    line-height: 9.082vw;
+    top: 62%;
   }
 
   .main__subtitle-two {
@@ -289,7 +291,6 @@ body {
     height: 270px;
   }
 }
-
 @media ( max-width: 768px) {
   .hamburger-menu {
     display: block;
