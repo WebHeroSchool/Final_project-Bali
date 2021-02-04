@@ -13,17 +13,18 @@ p {
 body {
   height: 100vh;
   margin: 0;
+  background: url(img/main-background.svg) no-repeat top left;
   background-size: cover;
-  background: url(img/main-background..jpg) no-repeat top left;
 }
 .wrapper {
-  margin: 0 0 0 10%;
+  margin: 0 0 0 10.3%;
 }
 .header {
-  padding: 88px 0 138px;
+  padding: 86px 0 131px;
   display: flex;
   justify-content: space-between;
 }
+
 
 .logo {
   width: 146px;
@@ -131,6 +132,11 @@ body {
   background: #D4BEA3;
   border-radius: 48px;
   text-decoration: none;
+  cursor: pointer;
+}
+.main__button:hover {
+  opacity: .5;
+  transition: 1s;
 }
 .content {
   width: 52%;
@@ -141,7 +147,7 @@ body {
 }
 
 .content__image_left {
-  background: url("img/image-left.jpg") no-repeat;
+  background: url("img/image-left.png") no-repeat;
   background-size: 100%;
   margin-right: 32px;
   width: 319px;
@@ -149,7 +155,7 @@ body {
 }
 
 .content__image_center {
-  background: url("img/image-center.jpg") no-repeat;
+  background: url("img/image-center.png") no-repeat;
   background-size: 100%;
   margin-right: 33px;
   width: 286px;
@@ -157,18 +163,18 @@ body {
 }
 
 .content__image_right {
-  background: url("img/image-right1.jpg") no-repeat;
+  background: url("img/image-right1.png") no-repeat;
   background-size: 100%;
   width: 208px;
   height: 380px;
 }
 @media (max-width: 1366px) {
   .header {
-   padding: 43px 0 80px;
+   padding: 43px 0 79px;
  }
 
  .menu__item {
-   margin-right: 27px;
+   margin-right: 25px;
    font: 16px/19px museo_sans_cyrl, arial, helvetica, sans-serif;
  }
 
@@ -177,7 +183,7 @@ body {
  }
 
  .main__title-wrap {
-   margin-bottom: 5px;
+   margin-bottom: 6px;
  }
 
  .main__subtitle {
@@ -197,7 +203,7 @@ body {
 
  .content {
    width: 51%;
-   padding-top: 6%;
+   padding-top: 6.4%;
  }
 
  .content__image_left {
@@ -215,6 +221,9 @@ body {
  }
 }
 @media (max-width: 1024px) {
+  .body {
+    height: 100vh;
+}
   .header {
     padding: 48px 0 84px;
   }
