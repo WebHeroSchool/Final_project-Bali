@@ -16,6 +16,7 @@ body {
   background: url(img/main-background.svg) no-repeat top left;
   background-size: cover;
 }
+
 .wrapper {
   margin: 0 0 0 10.3%;
 }
@@ -25,12 +26,11 @@ body {
   justify-content: space-between;
 }
 
-
 .logo {
   width: 146px;
   height: 55px;
-  background-size: 100%;
   background: url(img/logo.svg) no-repeat;
+  background-size: 100%;
   margin-top: 4px;
 }
 
@@ -43,6 +43,7 @@ body {
   align-items: center;
   margin-right: 7%;
 }
+
 .menu__item {
   position: relative;
   margin-right: 38px;
@@ -50,6 +51,7 @@ body {
   text-decoration: none;
   color: #f8eee4;
 }
+
 .menu__item::after {
   position: absolute;
   display: block;
@@ -62,9 +64,11 @@ body {
   opacity: 0;
   transition: opacity 1s, width 1s;
 }
+
 .menu__item:hover {
   opacity: .5;
 }
+
 .menu__item:hover::after {
   position: absolute;
   display: block;
@@ -77,7 +81,7 @@ body {
 
 .menu__item-btn:hover {
   transition: .5s;
-  border-bottom:thick double #32a1ce;
+  border-bottom: thick double #32a1ce;
 }
 .menu__item:hover:after,.menu__item-btn:hover{
   opacity: 1;
@@ -115,7 +119,7 @@ body {
   left: 15%;
   margin: 0 auto;
   color: #f8eee4;
-  font: bold 5.10vw/6.77vw PTSerif, arial, helvetica, sans-serif;
+  font: bold 5.1vw/6.77vw PTSerif, arial, helvetica, sans-serif;
 }
 
 .main__subtitle-two {
@@ -135,10 +139,12 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+
 .main__button:hover {
   opacity: .5;
   transition: 1s;
 }
+
 .content {
   width: 52%;
   padding-top: 5%;
@@ -171,41 +177,41 @@ body {
 }
 
 @media (max-width: 1366px) {
-  .header {
-   padding: 43px 0 79px;
+ .header {
+    padding: 43px 0 79px;
  }
 
  .menu__item {
-   margin-right: 25px;
-   font: 16px/19px museo_sans_cyrl, arial, helvetica, sans-serif;
+    margin-right: 25px;
+    font: 16px/19px museo_sans_cyrl, arial, helvetica, sans-serif;
  }
 
  .main__text {
-   max-width: 34%;
+    max-width: 34%;
  }
 
  .main__title-wrap {
-   margin-bottom: 6px;
+    margin-bottom: 6px;
  }
 
  .main__subtitle {
-   left: 14%;
+    left: 14%;
  }
 
  .main__button {
-   padding: 10px 62px;
-   margin-left: 15px;
-   font: 16px/19px museo_sans_cyrl, arial, helvetica, sans-serif;
+    padding: 10px 62px;
+    margin-left: 15px;
+    font: 16px/19px museo_sans_cyrl, arial, helvetica, sans-serif;
  }
 
  .main__subtitle-two {
-   margin: 0 0 23px 14px;
-   font: 16px/19px museo_sans_cyrl, arial, helvetica, sans-serif;
+    margin: 0 0 23px 14px;
+    font: 16px/19px museo_sans_cyrl, arial, helvetica, sans-serif;
  }
 
  .content {
-   width: 51%;
-   padding-top: 6.4%;
+    width: 51%;
+    padding-top: 6.4%;
  }
 
  .content__image_left {
@@ -222,6 +228,7 @@ body {
    margin-top: 20px;
  }
 }
+
 @media (max-width: 1024px) {
   .body {
     height: 100vh;
@@ -302,6 +309,7 @@ body {
     height: 270px;
   }
 }
+
 @media ( max-width: 768px) {
   .hamburger-menu {
     display: block;
