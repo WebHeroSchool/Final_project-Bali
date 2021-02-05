@@ -104,7 +104,7 @@ body {
 
 .main__title {
   margin: 0 auto;
-  color: #F8EEE4;
+  color: #f8eee4;
   opacity: 0.4;
   font: bold 14.58vw/19.32vw PTSerif, arial, helvetica, sans-serif;
 }
@@ -114,12 +114,13 @@ body {
   top: 61%;
   left: 15%;
   margin: 0 auto;
-  color: #F8EEE4;
+  color: #f8eee4;
   font: bold 5.10vw/6.77vw PTSerif, arial, helvetica, sans-serif;
 }
+
 .main__subtitle-two {
   margin: 0 0 39px 22px;
-  color: #F8EEE4;
+  color: #f8eee4;
   font: 21.5px/27px museo_sans_cyrl, arial, helvetica, sans-serif;
   max-width: 534px;
 }
@@ -129,7 +130,7 @@ body {
   color: #fff;
   padding: 17px 87px;
   margin-left: 20px;
-  background: #D4BEA3;
+  background: #d4bea3;
   border-radius: 48px;
   text-decoration: none;
   cursor: pointer;
@@ -168,6 +169,7 @@ body {
   width: 208px;
   height: 380px;
 }
+
 @media (max-width: 1366px) {
   .header {
    padding: 43px 0 79px;
