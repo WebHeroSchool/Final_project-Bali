@@ -106,7 +106,7 @@ body {
   margin: 0 auto;
   color: #F8EEE4;
   opacity: 0.4;
-  font: bold 14.58vw/19.32vw pt_serif, arial, helvetica, sans-serif;
+  font: bold 14.58vw/19.32vw PTSerif, arial, helvetica, sans-serif;
 }
 
 .main__subtitle {
@@ -115,7 +115,7 @@ body {
   left: 15%;
   margin: 0 auto;
   color: #F8EEE4;
-  font: bold 5.10vw/6.77vw pt_serif, arial, helvetica, sans-serif;
+  font: bold 5.10vw/6.77vw PTSerif, arial, helvetica, sans-serif;
 }
 .main__subtitle-two {
   margin: 0 0 39px 22px;
