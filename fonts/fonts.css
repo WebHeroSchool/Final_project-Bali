@@ -9,25 +9,25 @@
 }
 
 @font-face {
-  font-family: 'PTSerif';
-  src: url('PTSerif-bolditalic-webfont.woff') format('woff');
-  src: url('PTSerif-boldItalic.ttf') format('truetype');
+  font-family: 'PT_Serif';
+  src: url('PT_Serif-bolditalic-webfont.woff') format('woff');
+  src: url('PT_Serif-boldItalic.ttf') format('truetype');
   font-weight: bold;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'PTSerif';
-  src: url('PTSerif-italic-webfont.woff') format('woff');
-  src: url('PTSerif-italic.ttf') format('truetype');
+  font-family: 'PT_Serif';
+  src: url('PT_Serif-italic-webfont.woff') format('woff');
+  src: url('PT_Serif-italic.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'PTSerif';
-  src: url('PTSerif-regular-webfont.woff') format('woff');
-  src: url('PTSerif-regular.ttf') format('truetype');
+  font-family: 'PT_Serif';
+  src: url('PT_Serif-regular-webfont.woff') format('woff');
+  src: url('PT_Serif-regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
